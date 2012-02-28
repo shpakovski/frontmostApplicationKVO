@@ -21,12 +21,12 @@
 		DDDB835D14FD7226002EB948 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DDDB835E14FD7226002EB948 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DDDB835F14FD7226002EB948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DDDB836214FD7226002EB948 /* frontmostApplicationKVO-Info.plist */ = {isa = PBXFileReference; path = "frontmostApplicationKVO-Info.plist"; sourceTree = "<group>"; };
+		DDDB836214FD7226002EB948 /* frontmostApplicationKVO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "frontmostApplicationKVO-Info.plist"; sourceTree = "<group>"; };
 		DDDB836414FD7226002EB948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDDB836614FD7226002EB948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDDB836814FD7226002EB948 /* frontmostApplicationKVO-Prefix.pch */ = {isa = PBXFileReference; path = "frontmostApplicationKVO-Prefix.pch"; sourceTree = "<group>"; };
+		DDDB836814FD7226002EB948 /* frontmostApplicationKVO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "frontmostApplicationKVO-Prefix.pch"; sourceTree = "<group>"; };
 		DDDB836A14FD7226002EB948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DDDB836C14FD7226002EB948 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDB836C14FD7226002EB948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDDB836D14FD7226002EB948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDDB837014FD7226002EB948 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,6 +248,7 @@
 		DDDB837514FD7226002EB948 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "frontmostApplicationKVO/frontmostApplicationKVO-Prefix.pch";
 				INFOPLIST_FILE = "frontmostApplicationKVO/frontmostApplicationKVO-Info.plist";
@@ -259,6 +260,7 @@
 		DDDB837614FD7226002EB948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "frontmostApplicationKVO/frontmostApplicationKVO-Prefix.pch";
 				INFOPLIST_FILE = "frontmostApplicationKVO/frontmostApplicationKVO-Info.plist";
